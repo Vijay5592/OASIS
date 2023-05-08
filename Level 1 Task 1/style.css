@@ -1,0 +1,145 @@
+/* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set default font and background color */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #1d0d0d;
+  }
+  
+  /* Style the header and navigation */
+  header {
+    background-color: #4d4b4b;
+    color: #0b493152;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    color: #d1c0c0;
+    text-decoration: none;
+  }
+  
+  /* Style the hero section */
+  .hero {
+    background-image: url(pngtree-neon-double-color-futuristic-frame-colorful-background-picture-image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #db8b8b;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 2rem;
+  }
+  
+  .hero button {
+    background-color: #13b4b9;
+    color: #464040;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .hero button:hover {
+    background-color: #362f2f;
+    color: #be2828;
+  }
+  
+  /* Style the about section */
+  .about {
+    background-color: #23868a;
+    padding: 4rem;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+  }
+  
+  .about a {
+    display: inline-block;
+    background-color: #333;
+    color: #e20c0c;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+  }
+  
+  .about a:hover {
+    background-color: #ec0a0a;
+    color: #807474;
+  }
+  
+  /* Style the courses section */
+  .courses {
+    background-color: #e6d8d8;
+    padding: 4rem;
+  }
+  
+  .courses h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .courses ul {
+    list-style: none;
+    margin-bottom: 2rem;
+  }
+  
+  .courses li {
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  
+  .courses a {
+    display: inline-block;
+    background-color: #cec7c7;
+    color: #7a7171;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+  }
+  
+  .courses a:hover {
+    background-color: #ebdada;
+    color: #7c7676;
+  }
