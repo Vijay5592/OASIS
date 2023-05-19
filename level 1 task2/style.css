@@ -1,0 +1,119 @@
+/* Global styles */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 2.5;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Header styles */
+
+header {
+    background-color: #2f1538;
+    color: #5f2323;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav li {
+    margin: 0 1rem;
+}
+
+header nav li a {
+    color: #899629;
+    font-size: 1.2rem;
+}
+
+header nav li a:hover {
+    border-bottom: 2px solid #d15454;
+}
+
+
+/* Main styles */
+
+main {
+    margin: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+section li h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+section li p {
+    font-size: 1.2rem;
+}
+
+
+/* Contact form styles */
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+form label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+form input,
+form textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #275f4c;
+}
+
+form input[type="submit"] {
+    background-color: #c77e7e;
+    color: #7acc9f;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #bd7171;
+}
